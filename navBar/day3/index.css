@@ -1,0 +1,37 @@
+#dream_fund {
+    height: 550px;
+    width: 100%;
+    border: 1px solid black;
+    /* display: flex; */
+}
+
+#first_child {
+    height: 120px;
+    width: 90%;
+    border: 1px solid black;
+    margin: auto auto;
+    margin-top: 20px;
+}
+
+#sec_child {
+    height: 350px;
+    width: 70%;
+    border: 1px solid black;
+    margin: auto auto;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
+#crowd_funding {
+    height: 350px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#indemand {
+    height: 350px;
+    width: 50%;
+    border: 1px solid black;
+}

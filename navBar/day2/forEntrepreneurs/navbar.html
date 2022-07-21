@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <div id="navBar">
+        <div id="nav_left_div">
+            <a href="navbar.html" id="logo"><img src="logo2.png"></a>
+            <p id="nav_exp" class="classHover" onclick="display1()">How it Works
+            <div id="dropdown1">
+                <p><a href="navbar.html">Campaign</a></p>
+                <p><a href="navbar.html">In Demand</a></p>
+                <p><a href="navbar.html">China Program</a></p>
+                <p><a href="navbar.html">Fees</a></p>
+                <p><a href="navbar.html">Community</a></p>
+            </div>
+            </p>
+            <p id="nav_wwd" class="classHover" onclick="display2()">Resources</p>
+            <div id="dropdown2">
+                <p><a href="navbar.html">Education Center</a></p>
+                <p><a href="navbar.html">Education Plus</a></p>
+                <p><a href="navbar.html">Experts Directory</a></p>
+                <p><a href="navbar.html">Help & Support</a></p>
+                <p><a href="navbar.html">Trust & Saftey</a></p>
+            </div>
+            <p id="nav_wwd" class="classHover" onclick="display3()">About Us</p>
+            <div id="dropdown3">
+                <p><a href="navbar.html">Indiegogo vs. Kickstarter</a></p>
+                <p><a href="navbar.html">Press</a></p>
+                <p><a href="navbar.html">About Us</a></p>
+            </div>
+        </div>
+        <div id="nav_right_div">
+            <button id="nav_camp">
+                <a id="camp_link" href="google.com">START A CAMPAIGN</a>
+            </button>
+            <p id="nav_signup" class="classHover"><a href="signup.html">Sign Up</a></p>
+            <p id="nav_login" class="classHover"><a href="login.html">Log In</a></p>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
+
+<script>
+    let count1 = 0;
+    let display1 = () => {
+        count1++
+        if (count1 % 2 == 1) {
+            document.getElementById('dropdown1').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown1').style.display = "none";
+
+        }
+        console.log(count1);
+    }
+
+    let count2 = 0;
+    let display2 = () => {
+        count2++
+        if (count2 % 2 == 1) {
+            document.getElementById('dropdown2').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown2').style.display = "none";
+
+        }
+        console.log(count2);
+    }
+
+    let count3 = 0;
+    let display3 = () => {
+        count3++
+        if (count3 % 2 == 1) {
+            document.getElementById('dropdown3').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown3').style.display = "none";
+
+        }
+        console.log(count3);
+    }
+</script>
