@@ -87,8 +87,84 @@
 #in_fourp {
     margin-top: 15px;
 }
-#statCap{
+
+#statCap {
     text-decoration: none;
     color: #EB1679;
     font-weight: bold;
+}
+
+#find_exp {
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#find_exp>img {
+    width: 1100px;
+}
+
+#find_exp>button {
+    color: white;
+    background-color: #EB1679;
+    border: 1px;
+    height: 40px;
+    width: 150px;
+}
+
+#find_exp>button a {
+    text-decoration: none;
+    color: white;
+}
+
+#find_exp>button:hover {
+    background-color: #e74b94;
+}
+
+#all_the_right {
+    height: 410px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#all_the_right>h2 {
+    margin-top: 60px;
+}
+
+#alltheright_sec {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto auto;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+#alltheright_sec div {
+    text-align: center;
+    border: 1px solid black;
+    width: 140px;
+    align-items: center;
+    padding: 25px;
+}
+
+#ready_to {
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #2A2A2A;
+}
+
+#ready_to button{
+    border: 1px;
+    background-color: #EB1679;
+    height: 35px;
+    width: 250px;
+}
+
+#ready_to a{
+    text-decoration: none;
+    color: white;
 }
