@@ -1,37 +1,94 @@
+* {
+    font-family: benton-sans, Helvetica, "Sans-serif";
+}
+
 #dream_fund {
-    height: 550px;
+    height: 500px;
     width: 100%;
     border: 1px solid black;
     /* display: flex; */
 }
 
 #first_child {
-    height: 120px;
+    height: 100px;
     width: 90%;
     border: 1px solid black;
     margin: auto auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 #sec_child {
-    height: 350px;
+    height: 300px;
     width: 70%;
     border: 1px solid black;
     margin: auto auto;
     margin-top: 10px;
     display: flex;
-
+    justify-content: space-between;
+    /* text-align: center; */
 
 }
 
 #crowd_funding {
-    height: 350px;
-    width: 50%;
+    height: 300px;
+    width: 48%;
     border: 1px solid black;
 }
 
 #indemand {
-    height: 350px;
-    width: 50%;
+    height: 300px;
+    width: 48%;
     border: 1px solid black;
+}
+
+#cf_img {
+    display: block;
+    margin: auto auto;
+    height: 60px;
+    margin-top: 30px;
+}
+
+#cf_fp {
+    text-align: center;
+}
+
+#cf_sp {
+    font-weight: bold;
+}
+
+#cf_tp {
+    margin-top: -5px;
+}
+
+#cf_fourp {
+    margin-top: 1px;
+}
+
+#in_img {
+    display: block;
+    margin: auto auto;
+    height: 60px;
+    margin-top: 30px;
+}
+
+#in_fp {
+    text-align: center;
+}
+
+#in_sp {
+    font-weight: bold;
+}
+
+#in_tp {
+    margin-top: -5px;
+}
+
+#in_fourp {
+    margin-top: 15px;
+}
+#statCap{
+    text-decoration: none;
+    color: #EB1679;
+    font-weight: bold;
 }
