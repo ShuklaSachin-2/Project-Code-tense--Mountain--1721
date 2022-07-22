@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .div1>.text_on_img>img{
+            width: 100%;
+            height: 50%;
+        }
+        .text{
+            /* margin: auto; */
+            position: absolute;
+            margin-top: -15rem;
+            margin-left: 30px;
+            color: white;
+        }
+        .btns{
+            display: flex;
+        }
+        .btns>img{
+            width: 35px;
+            margin-left: 10px;
+            cursor: pointer;
+            
+        }
+        .btn{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            padding: 5px 10px 5px 10px;
+            margin-left: 15px;
+            background: transparent;
+            border-color: white;
+            color: white;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <section class="div1">
+        <div class="text_on_img">
+            <img id="image" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658244913/mloerh9s6w3vjaqfqddv.jpg"alt="">
+            <div class="text">
+                <button>GOGOPICKS</button>
+                <h3>Just Launched! PIX NII</h3>
+                <p>Most Powerful mini PC with Dual 4k HDMI</p>
+                <p id="jbtn">SEE CAMPAIGN</p>
+                <div class="btns">
+                    <button class="btn" onclick="backword()"><i class="fa fa-angle-left" style="font-size:36px"></i></button>
+                    <button class="btn" onclick="forword()"><i class="fa fa-angle-right" style="font-size:36px"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./jscript.js"></script>
+</html>
