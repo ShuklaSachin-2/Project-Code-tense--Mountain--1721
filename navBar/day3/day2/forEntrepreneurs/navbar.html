@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <div id="navBar_enp">
+        
+    </div>
+    <hr>
+</body>
+
+</html>
+<script src="navbar.js" type="module"></script>
+
+<script>
+    let count1 = 0;
+    let display1 = () => {
+        count1++
+        if (count1 % 2 == 1) {
+            document.getElementById('dropdown1').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown1').style.display = "none";
+
+        }
+        console.log(count1);
+    }
+
+    let count2 = 0;
+    let display2 = () => {
+        count2++
+        if (count2 % 2 == 1) {
+            document.getElementById('dropdown2').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown2').style.display = "none";
+
+        }
+        console.log(count2);
+    }
+
+    let count3 = 0;
+    let display3 = () => {
+        count3++
+        if (count3 % 2 == 1) {
+            document.getElementById('dropdown3').style.display = "block";
+        }
+        else {
+            document.getElementById('dropdown3').style.display = "none";
+
+        }
+        console.log(count3);
+    }
+</script>
