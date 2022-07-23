@@ -17,15 +17,15 @@ var perkArr = [
         p2:"September 2022",
         p3:"3 out of 10000 claimed",
     },
-    {
-        image:"https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,w_762,g_center,q_auto:best,dpr_1.3,f_auto,h_506/u4xvxdgje9ny5a7yc1ud",
-        title:"i VERI PRODUTTORI",
-        price:"$100 EUR",
-        Rs:"Rupee 8,551 INR",
-        p1:"Estimate Shipping",
-        p2:"September 2022",
-        p3:"8 out of 100000 claimed",
-    },
+    // {
+    //     image:"https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,w_762,g_center,q_auto:best,dpr_1.3,f_auto,h_506/u4xvxdgje9ny5a7yc1ud",
+    //     title:"i VERI PRODUTTORI",
+    //     price:"$100 EUR",
+    //     Rs:"Rupee 8,551 INR",
+    //     p1:"Estimate Shipping",
+    //     p2:"September 2022",
+    //     p3:"8 out of 100000 claimed",
+    // },
 
 
 ]
