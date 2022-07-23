@@ -350,15 +350,21 @@
     /* top: 40%; */
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 500px;
+    width: 1300px;
     padding: 50px;
-    box-shadow: 0 5px 30px rgba(0,0,0,.30);
-    background: rgb(251, 254, 254);
+    /* box-shadow: 0 5px 30px rgba(0,0,0,.30); */
+    /* background: rgb(251, 254, 254); */
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
-    border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 5px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    display: flex;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.2);
+
 }
 #popup.active {
     top: 50%;
@@ -389,4 +395,46 @@
   -moz-box-shadow: 0 0 10px #ccc;
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
+}
+
+
+/* sliding carousel css ***/
+#sli-up{
+    /* border:1px solid teal; */
+    /* margin-bottom: 20px; */
+    background-color: rgb(249, 247, 247);
+}
+.tags-N{
+    font-family: ff-more-web-pro,Georgia,"Serif";
+    margin-left: 40px;
+    padding: 50px;
+    font-size: 28px;
+    color: #2a2a2a;
+}
+.cbtn-N{
+    margin-left:90px;   
+}
+.cbtn-N button{
+    padding: 7px;
+    color: #2a2a2a;background-color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-family: benton-sans,Helvetica,"Sans-serif";
+}
+.cbtn-N button:hover{
+    color :red;
+}
+
+.main-carousel{
+    background-color: rgb(249, 247, 247);
+    /* border: 1px solid green; */
+    height: 550px;
+    margin: 0px;
+}
+.cell{ 
+    transition: 0.1s;
+} 
+.cell:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
