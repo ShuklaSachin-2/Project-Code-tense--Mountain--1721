@@ -1,0 +1,142 @@
+#phonemycontainer1{
+    /* border:1px solid black; */
+    height: 1000px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+#phonemycontainer1>h4{
+    margin-top: 30px;
+    color: gray;
+}
+#crew-1>p{
+  margin-left: 30px;
+}
+#phonemycontainer2{
+    
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    height: 3000px;
+     width: 900px;
+     margin-top: -880px;
+    margin-left: 500px;
+    
+  
+    
+}
+
+#s-more{
+    border: 0ch;
+}
+
+#phonemycontainer2>div{
+    /* border: 1px solid pink; */
+    height: 680px;
+    width: 280px;
+    margin-top: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+#my-img1{
+    width: 100%;
+    height: 47%;
+}
+
+/* #fund-1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content:space-between;
+
+} */
+/* #s-div>m-di{
+    color: aqua;
+} */
+
+#m-di1{
+    color: rgb(56, 200, 130);
+    margin-left: 20px;
+    margin-top: 15px;
+    
+    
+}
+#hr-2{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #363e45;
+   
+}
+
+#my-t2{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(54, 52, 52);
+    /* text-align: center; */
+
+
+
+}
+#p1-s1{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 15px;
+    color:#363e45;
+}
+
+#h1-p1{
+    margin-left: 20px;
+    /* margin-top: 30px; */
+    margin-top: 56px;
+}
+#price-my{
+    margin-left: 20px;
+}
+
+
+#mybox-11{
+    display: flex;
+    
+}
+#mb-21{
+    margin-left: 20px;
+    text-decoration:black;
+    text-decoration:solid;
+}
+#mb-31{
+    margin-left: 220px;
+    margin-top: -18px;
+}
+#aval-1{
+    border: 4px solid aqua ;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:10%;
+}
+/* #non{
+    border: 4px solid rgb(239, 232, 232) ;
+    margin-left: 160px;
+    margin-right: 20px;
+    border-radius:10%;
+    margin-top: -24px;
+} */
+#p3-3{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+#in-box{
+    margin-left: 490px;
+    margin-top: -1000px;
+    height: 35px;
+    width: 900px;
+}
+#rrend{
+    margin-top: -920px;
+    margin-left: 1270px;
+    width: 120px;
+    height: 30px;
+
+}
