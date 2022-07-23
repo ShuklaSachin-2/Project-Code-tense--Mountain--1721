@@ -149,7 +149,7 @@
             <div id="signup_div">
                 <div>
                     <h1>Sign Up</h1>
-                    <form onsubmit="getFormData(event)">
+                    <form onsubmit="formfunction(event)">
                         <input type="text" placeholder="First Name" id="fname" required> <br><br>
                         <input type="text" placeholder="Last Name" id="lname" required> <br><br>
                         <input type="email" placeholder="Email" id="mail" required> <br><br>
@@ -211,84 +211,72 @@
         }
         console.log(count);
     }
-    // let roboFun = () =>{
-    //     console.log("hello");
-    // }
 
-    let signupArray = JSON.parse(localStorage.getItem("signupDetails")) || [];
+    var form = document.querySelector("form");
+    form.addEventListener("submit", formfunction);
+    let arr = JSON.parse(localStorage.getItem("setdata")) || [];
+    console.log(arr);
+    function formfunction(event) {
 
-    class indiegogoSignup {
+        console.log(arr.length)
+        event.preventDefault();
 
-        constructor(userFname, userLname, userEmail, userPasswd) {
-            this.firstName = userFname;
-            this.lastName = userLname;
-            this.email = userEmail;
-            this.passwd = userPasswd;
+        let firstName = document.querySelector("#fname").value;
+        let lastName = document.querySelector("#lname").value;
+        let userEmail = document.querySelector("#mail").value;
+        let userPassword = document.querySelector("#passwd").value;
+
+        let result = false;
+        let count = 0;
+
+        if (arr.length == 0) {
+            result = true;
+            // let data = {
+            //   username: userName,
+            //   lastname: lastName,
+            //   birth: userBirth,
+            //   email: userEmail,
+            //   password: userPassword,
+            //   check: checkUser,
+            // };
+            // arr.push(data);
         }
-        userRegistration(userFname, userLname, userEmail, userPasswd) {
-            let checkEmail = false;
-            checkEmail = this.verify_user_Email(userEmail)
+        else {
+            arr.forEach(element => {
+                console.log(element.email, userEmail, element.email == userEmail)
+                if (element.email == userEmail) {
+                    result = false;
+                    count++;
+                }
+                else {
+                    result = true;
+                }
+            });
 
-            if (checkEmail = true) {
-                this.firstName = userFname;
-                this.lastName = userLname;
-                this.email = userEmail;
-                this.passwd = userPasswd;
-                signupArray.push(this);
-                localStorage.setItem("signupDetails", JSON.stringify(signupArray));
-                alert("True")
-                // location.reload()
-            }
-            else {
-                alert("User exist")
-            }
-
-        }
-
-        verify_user_Email(userEmail) {
-            console.log("hello");
-            console.log(signupArray.length, signupArray);
-
-            if (signupArray.length == 0) {
-                return true;
-            }
-            else {
-                let verify = false;
-                signupArray.forEach(function (ele) {
-                    if (ele.email == userEmail) {
-                        console.log(userEmail);
-
-                        verify = false;
-                    }
-                    else {
-                        verify = true;
-                    };
-                });
-                return verify;
-            }
         }
 
-        // verify_user_Passwd(userPasswd) {
 
-        // }
+        if (result === true && count == 0) {
+            let data = {
+                Fusername: firstName,
+                Lastname: lastName,
+                email: userEmail,
+                password: userPassword,
+            };
+            arr.push(data);
+            localStorage.setItem("setdata", JSON.stringify(arr));
+            alert("Sucess")
+        }
+        else {
+            alert("User Exist!")
+
+        }
     }
 
-    let signupData;
-    let getFormData = () => {
-        event.preventDefault()
-
-        let User_Fname = document.getElementById("fname").value;
-        let User_Lname = document.getElementById("lname").value;
-        let User_Email = document.getElementById("mail").value;
-        let User_Passwd = document.getElementById("passwd").value;
-        signupData = new indiegogoSignup(User_Fname, User_Lname, User_Email, User_Passwd)
-        signupData.userRegistration(User_Fname, User_Lname, User_Email, User_Passwd)
-        console.log(signupArray);
-    }
 
     //login code
 
-    let check_user_Auth = JSON.parse(localStorage.getItem("signupDetails"));
+    let check_user_Auth = JSON.parse(localStorage.getItem("setdata"));
 
     class Userlogin {
 
@@ -301,7 +289,7 @@
             let res = false;
             let count = 0;
             check_user_Auth.forEach(ele => {
-                if (email == ele.email && pass == ele.passwd) {
+                if (email == ele.email && pass == ele.password) {
                     res = true;
                     count++;
                 }
