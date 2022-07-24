@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./checkout.css" />
+  </head>
+  <body id="blur">
+    <div id="sachinnav">
+      <img
+        id="sachinnav_logo"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AHXzQp_8bKV_Ex-8p0TvkwHaBJ%26pid%3DApi%26h%3D160&f=1"
+        alt=""
+      />
+    </div>
+
+    <div id="checkout_main">
+      <div id="check_left">
+        <div>
+          <div>
+            <h3>YOU'RE CONTRIBUTING TO</h3>
+          </div>
+          <div>
+            <h4 class="heading_check">
+              PIX NII: Most Powerful Mini PC with Dual 4K HDMI
+            </h4>
+          </div>
+          <div id="checkout_back"></div>
+          <div class="guest_checout_head">
+            <h4 style="margin-right: 20px">Guest checkout</h4>
+            <p>Have an account?</p>
+            <a href=""><p>LogIn</p></a>
+          </div>
+
+          <div id="checkout_name">
+            <div class="labelname">
+              <h4>Full Name*</h4>
+              <input type="text" />
+            </div>
+            <div class="labelname">
+              <h4>Email*</h4>
+              <input type="text" />
+            </div>
+          </div>
+          <div id="ckeckbox_subscribe" style="display: flex; margin-left: 24px">
+            <input type="checkbox" name="" id="" />
+            <p>Subscribe to the Indiegogo newsletter</p>
+          </div>
+
+          <h4 style="margin-left: 30px; margin-top: 10px">Shipping Address</h4>
+        </div>
+        <div id="checkout_shipping_address">
+          <form action="">
+            <label for="Full Name *">Full Name *</label><br />
+            <input type="text" id="fullname_checkout" /><br />
+            <label for="Country *">Country *</label><br />
+            <input type="text" id="country_checkout" /><br />
+            <label for="Street Address *">Street Address *</label><br />
+            <input type="text" id="streetaddress_checkout" /><br />
+            <label for="City *">City *</label><br />
+            <input type="text" id="city_checkout" /><br />
+            <div>
+              <label for="Postal Code *">Postal Code *</label><br />
+              <input type="text" />
+              <label for="Phone Number *">Phone Number *</label><br />
+              <input type="text" />
+            </div>
+          </form>
+
+          <h3 id="secure_payment">Secure Payment</h3>
+          <div>
+            <form action="">
+              <label for="">Name on card</label> <br />
+              <input type="text" /><br />
+              <label for="">Card Information</label><br />
+              <input type="number" />
+            </form>
+          </div>
+
+          <div>
+            <div
+              style="
+                margin: auto;
+                text-align: center;
+                margin-bottom: 20px;
+                padding: 20px;
+                box-sizing: border-box;
+              "
+            >
+              <h4>Add a tip to Indiegogo</h4>
+              <p>
+                By supporting Indiegogo, you are helping us bring the power of
+                community to important causes around the world. We'll donate a
+                portion of your tip to various causes important to the Indiegogo
+                community. Learn more.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="input_radio">
+          <div>
+            <input type="radio" name="" id="" />
+            <p>$20 HKD</p>
+          </div>
+          <div>
+            <input type="radio" name="" id="" />
+            <p>$50 HKD</p>
+          </div>
+          <div>
+            <input type="radio" name="" id="" />
+            <p>$75 HKD</p>
+          </div>
+          <div>
+            <input type="radio" name="" id="" />
+            <p>Other Amount</p>
+          </div>
+          <div>
+            <input type="radio" name="" id="" />
+            <p>No Tip</p>
+          </div>
+        </div>
+      </div>
+      <div class="checkout_right">
+        <h3>Contribution summary</h3>
+
+        <p>Your contribution</p>
+        <div id="checkout_right">
+          <div>
+            <div>$ 80</div>
+            <div>HKD</div>
+          </div>
+          <div>
+            <p>This does not include a perk</p>
+            <p><a href="">Add Perk</a></p>
+          </div>
+          <hr />
+          <div>
+            <div><p>Subtotal</p></div>
+            <div><p>$80HKD</p></div>
+          </div>
+          <div>
+            <div><p>Indiegogo Tip</p></div>
+            <div><p>$0 HKD</p></div>
+          </div>
+          <div id="total_check">
+            <div><h2>Total</h2></div>
+            <div><p>$80 HKD</p></div>
+          </div>
+        </div>
+        <div class="payment_process">
+          <p>
+            The payment will be processed in Hong Kong, in HKD. Converted
+            amounts are estimates and may differ from actual amount charged
+            based on your card issuer's exchange rate.
+          </p>
+        </div>
+        <div class="crowd_fund_box">
+          <h3>Crowdfunding is not shopping</h3>
+          <p>
+            Your donation is a way to support a project but does not guarantee
+            that you will receive a perk.
+          </p>
+
+          <p>
+            You may request a full refund from Indiegogo until the campaign ends
+            on August 19, 2022, unless the Campaign Owner has initiated shipping
+            with a tracking number. Any refunds after this date are the
+            responsibility of the campaign owner, PIXCORE , at their discretion.
+          </p>
+        </div>
+
+        <!-- <button
+          id="myAnchor"
+          href="./page1.html"
+          type="reset"
+          class="button_submit_sac"
+          onclick="myfun()"
+        >
+          Submit Payment
+        </button> -->
+
+        <div class="btn-N">
+          <!-- <div class="option-N"><h1>SEE OPTIONS</h1></div> -->
+          <button
+            href="./test.html"
+            id="myAnchor"
+            type="reset"
+            class="button_submit_sac"
+            onclick="toggle()"
+          >
+            Submit Payment
+          </button>
+        </div>
+      </div>
+
+      <!-- <a id="myAnchor"  href="./page1.html"><button  type="reset" >Submit Payment</button></a>
+   -->
+    </div>
+
+    <div id="popup">
+      <a onclick="myfun()" class="close">+</a>
+      <!-- appendat -->
+      <div id="nodiv"><h3>Congrats!!Payment Successful</h3></div>
+    </div>
+  </body>
+</html>
+
+<script>
+  function toggle() {
+    var blur = document.getElementById("blur");
+    blur.classList.toggle("active");
+    var popup = document.getElementById("popup");
+    popup.classList.toggle("active");
+  }
+  // toggle();
+  function myfun() {
+    alert("payment Successful");
+    window.location.href = "../index.html";
+  }
+</script>
+<!-- <script src="./"></script> -->

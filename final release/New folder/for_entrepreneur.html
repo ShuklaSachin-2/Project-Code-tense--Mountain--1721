@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="for_entrepreneur.css">
+    <link rel="stylesheet" href="day2/forEntrepreneurs/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar code start -->
+    <div id="navBar_enp">
+        <div id="nav_left_div">
+            <a href="for_entrepreneur.html"><img
+                    src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/cropped-logo@2x.png"
+                    id="logo"></a>
+            <p id="nav_exp" class="classHover" onclick="display1()">How it Works
+            <div id="dropdown1">
+                <p><a href="https://entrepreneur.indiegogo.com/how-it-works/campaign/">Campaign</a></p>
+                <p><a href="https://entrepreneur.indiegogo.com/how-it-works/indemand/">In Demand</a></p>
+                <p><a href="https://entrepreneur.indiegogo.com/how-it-works/indiegogo-china-fast-track-global-market/">China
+                        Program</a></p>
+                <p><a href="https://learn.indiegogo.com/pricing-and-fees/">Fees</a></p>
+                <p><a href="https://entrepreneur.indiegogo.com/community/"> Community</a></p>
+            </div>
+            </p>
+            <p id="nav_wwd" class="classHover" onclick="display2()">Resources</p>
+            <div id="dropdown2">
+                <p><a href="https://entrepreneur.indiegogo.com/education">Education Center</a></p>
+                <p><a href="https://entrepreneur.indiegogo.com/education/plus/">Education Plus</a></p>
+                <p><a href="https://entrepreneur.indiegogo.com/directory">Experts Directory</a></p>
+                <p><a href="https://support.indiegogo.com/hc/en-us">Help & Support</a></p>
+                <p><a href="https://learn.indiegogo.com/trust/">Trust & Saftey</a></p>
+            </div>
+            <p id="nav_wwd" class="classHover" onclick="display3()">About Us</p>
+            <div id="dropdown3">
+                <p><a href="https://grow.indiegogo.com/indiegogo-vs-kickstarter/">Indiegogo vs. Kickstarter</a></p>
+                <p><a href="https://www.indiegogo.com/contact/press">Press</a></p>
+                <p><a href="https://www.indiegogo.com/contact/press">About Us</a></p>
+            </div>
+        </div>
+        <div id="nav_right_div">
+            <button id="nav_camp">
+                <a id="camp_link"
+                    href="https://www.indiegogo.com/start-a-campaign?utm_source=etr&utm_medium=referral&utm_campaign=ent-hiw&utm_content=cta#/">START
+                    A CAMPAIGN</a>
+            </button>
+            <p id="nav_signup" class="classHover"><a href="login_signup.html">Sign Up</a></p>
+            <p id="nav_login" class="classHover"><a href="login_signup.html">Log In</a></p>
+        </div>
+    </div>
+    <!-- navbar code end -->
+
+    <!-----Slider--->
+    <section class="div1">
+        <div class="text_on_img">
+            <img id='image'
+                src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658244913/mloerh9s6w3vjaqfqddv.jpg"
+                alt="">
+            <div class="text">
+                <button>GOGOPICKS</button>
+                <h3>Just Launched! PIX NII</h3>
+                <p>Most Powerful mini PC with Dual 4k HDMI</p>
+                <p id="jbtn">SEE CAMPAIGN</p>
+                <div class="slider_btn">
+                    <button class="round_btn" onclick="backword()"><i class="fa fa-angle-left"
+                        style="font-size:36px"></i></button>
+                    <button class="round_btn" onclick="forword()"><i class="fa fa-angle-right"
+                        style="font-size:36px"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-----Slider end--->
+
+    <div id="dream_fund">
+        <div id="first_child">
+            <h1>Dream it. Fund it. Make it. Ship it. <br>
+                We help at every step from concept to market.</h1>
+        </div>
+        <div id="sec_child">
+            <div id="crowd_funding">
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_entrepreneur-site-crowdfunding-50px@2x-e1515528474613.png"
+                    alt="" id="cf_img">
+                <p id="cf_fp">
+                    CROWDFUNDING
+                </p>
+                <p id="cf_sp">Raise funds with a crowdfunding campaign </p>
+                <p id="cf_tp"> Acquire starter capital and validate your idea by tapping into Indiegogo’s global network
+                    of early
+                    adopters.</p><br>
+                <p id="cf_fourp"> <a
+                        href="https://www.indiegogo.com/choose-your-platform?utm_source=etr&utm_medium=referral&utm_campaign=ent-hiw&utm_content=bodylink#/"
+                        id="statCap">START A CAMPAIGN</a> > </p>
+            </div>
+            <div id="indemand">
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/08/IGG_entrepreneur-site-indemand-50px@2x.png"
+                    alt="" id="in_img">
+                <p id="in_fp">INDEMAND
+                </p>
+                <p id="in_sp">Extend your campaign with InDemand </p>
+                <p id="in_tp"> After your crowdfunding campaign, continue raising money and building your community with
+                    InDemand.
+                    No fundraising target, no deadline limits.</p>
+                <p id="in_fourp"> <a href="https://entrepreneur.indiegogo.com/how-it-works/indemand/" id="statCap">
+                        ACCESS INDEMAND</a> ></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="find_exp">
+        <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2021/08/Updated-Experts-image-HIW-w-badge-1024x284.png"
+            alt="" id="exp_th_exp">
+        <p>Find Indiegogo-vetted companies to help you launch your campaign and take your product to market.</p>
+        <button> <a
+                href="https://entrepreneur.indiegogo.com/directory/?utm_source=entrepreneur&utm_medium=wordpress&utm_campaign=ent-hiw-image-test-button&r=etr-wor-ent-hiw-">
+                FIND EXPERTS </a></button>
+    </div>
+
+    <div id="all_the_right">
+        <h2>All the Right Experts to Help Your Business </h2>
+        <div id="alltheright_sec">
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_experts-directory-creative-services-@2x.png"
+                    alt="">
+                <p>Creative Services</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_entrepreneur-site-fulfillment-50px@2x.png"
+                    alt="">
+                <p>Fulfillment</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_entrepreneur-site-marketing-50px@2x.png"
+                    alt="">
+                <p>Marketing & Communications</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_experts-directory-prototyping-and-production-@2x.png"
+                    alt="">
+                <p>Prototyping & Production</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_experts-directory-retail-licensing-distribution-50x50-@2x.png"
+                    alt="">
+                <p>Retail, Licencing & Distribution</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="ready_to">
+        <p>Ready to crush your crowdfunding goal?</p>
+        <h3>Raise more with Education Center Plus</h3>
+        <h4>Indiegogo’s Education Center Plus offers proven strategies for expanding <br>
+            your audience and raising more funds. Let our guides, videos, and interactive <br>
+            forum take your campaign to the next level.</h4>
+        <button><a href="https://entrepreneur.indiegogo.com/education/plus/">GO TO EDUCATION CENTER PLUS</a></button>
+    </div>
+    <div id="indiegog_china">
+        <div id="indiegog_china_img">
+            <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2018/02/T2-globe-east.png"
+                alt="">
+        </div>
+        <div id="indiegog_china_des">
+            <h2>Indiegogo China: Your Fast Track to the Global Market</h2>
+            <p>We’re here to help China’s top innovative products launch in U.S. and Western markets. <br> <br>
+
+                In the past two years alone, products from China have raised nearly $100 million on Indiegogo. Our <br>
+                team offers unparalleled support and resources to help you with the challenges of cross-border <br>
+                crowdfunding.</p>
+            <hr>
+            <a href="https://entrepreneur.indiegogo.com/how-it-works/indiegogo-china/">LEARN MORE ABOUT INDIEGOGO CHINA
+                SERVICES</a> <br>
+            <a
+                href="https://entrepreneur.indiegogo.com/how-it-works/indiegogo-china-fast-track-global-market/?utm_source=entrepreneur&utm_medium=referral&utm_campaign=ent-howitworks&utm_content=bodylink&r=etr-ref-ent-howi">我對
+                INDIEGOGO CHINA 有兴趣，了解更多</a>
+        </div>
+    </div>
+
+    <div id="success_stories">
+        <h2>Success Stories </h2>
+        <div id="sucess_inside">
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/04/IGG_HowItWorks_SuccessStories_387x387px_nomaticbag.jpg"
+                    alt="" id="ssi_img">
+                <p>The NOMATIC travel bag is shipping their products worldwide to 7K backers after raising $3M in
+                    crowdfunding on Indiegogo. <a
+                        href="https://www.indiegogo.com/projects/the-nomatic-travel-bag#/">Learn More
+                    </a> </p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/04/IGG_HowItWorks_SuccessStories_387x387px_hyperdrive2.jpg"
+                    alt="" id="ssi_img">
+                <p>HyperDrive Thunderbolt 3 USB-C Hub for MacBook Pro raised $1M+ on InDemand, by targeting outreach to
+                    grow a loyal community of backers. <a
+                        href="https://www.indiegogo.com/projects/hyperdrive-usb-c-hub-for-macbook-pro-2016-2017#/">
+                        Learn More </a> </p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_HowItWorks_SuccessStories_387x387px_bullrest1.jpg"
+                    alt="" id="ssi_img">
+                <p>After raising $381K on Indiegogo, BullRest - the reinvented travel pillow - launched on Indiegogo
+                    Product Marketplace with guaranteed shipping. <a
+                        href="https://www.indiegogo.com/products/bullrest-travel-pillow"> Learn More </a> </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="project_by_project">
+        <h1 id="f_h2">Project by project, <br>
+            we're changing the way new ideas come to life.</h1>
+        <div id="project_by_project_sec">
+            <div>
+                <h2>1B+</h2>
+                <h3>Total raised across all projects, from dance  to design.</h3>
+            </div>
+            <div>
+                <h2>11MM+ </h2>
+                <h3>Contributions from our amazing community of backers for 650k+ projects.</h3>
+            </div>
+            <div>
+                <h2>223 </h2>
+                <h3>Countries & territories are home to Indiegogo users.</h3>
+            </div>
+            <div>
+                <h2>18,983% </h2>
+                <h3>The most a campaign has exceeded its goal … so far!</h3>
+            </div>
+        </div>
+    </div>
+    <div id="ready_to_go">
+        <h2>Ready to Go?</h2>
+        <h3>You're only a step away from kicking off your entrepreneurial adventure on <br>
+            Indiegogo. Here's where to go next:</h3>
+        <div id="ready_to_go_inside">
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_HIW-crowdfunding-80px@2x-e1515527153625.png"
+                    alt="">
+                <p>Start a Campaign</p>
+                <p>Take the plunge with our guided campaign-creation tool. It’s free, and you can easily start now and
+                    finish later.</p>
+                <p id="rtg_link1">GET STARTED</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_entrepreneur-site-experts-directory-80px@2x.png"
+                    alt="">
+                <p>Experts Directory</p>
+                <p>Take your idea further with these experienced companies recommended by Indiegogo campaigners and
+                    staff. </p>
+                <p id="rtg_link2">FIND SUPPORT</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_HIW-Education-center-80px@2x.png"
+                    alt="">
+                <p>Education Center</p>
+                <p>Find everything you need for a successful campaign in one convenient location.</p>
+                <p id="rtg_link3">EXPLORE OUR RESOURCES</p>
+            </div>
+            <div>
+                <img src="https://entrepreneur.indiegogo.com/how-it-works/wp-content/uploads/sites/5/2017/07/IGG_entrepreneur-site-IGGvsKS-80px@2x.png"
+                    alt="">
+                <p>Indiegogo vs Kickstarter</p>
+                <p>Learn about the benefits of choosing Indiegogo for your idea. See our detailed breakdown.</p>
+                <p id="rtg_link4">GET INFORMED</p>
+            </div>
+        </div>
+    </div>
+    <div id="forenp_footer">
+        <div id="firstsec">
+            <div id="fs_1">
+                <p>HOW IT WORKS</p>
+                <p>Campaign</p>
+                <p>InDemand</p>
+                <p>How It Works</p>
+                <p>Enterprise</p>
+                <p>Fees</p>
+            </div>
+            <div id="fs_2">
+                <p>RESOURCES</p>
+                <p>Education Center</p>
+                <p>Experts Directory</p>
+                <p>Help & Support</p>
+                <p>Trust & Saftey</p>
+            </div>
+            <div id="fs_3">
+                <p>FOLLOW US</p>
+                <hr>
+                <div id="social_media">
+                    <img src="https://thumbs.dreamstime.com/b/new-vector-logo-social-media-icon-original-facebook-november-201263375.jpg"
+                        alt="" id="socialMedia">
+                    <img src="data:image/png;base64,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"
+                        alt="" id="socialMedia">
+                    <img src="data:image/png;base64,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"
+                        alt="" id="socialMedia">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADq6urExMSfn59RUVFsbGyLi4t/f3/8/Pzk5ORpaWmioqI3NzfIyMjQ0NCYmJj29va1tbXY2NgYGBiFhYUwMDBzc3MODg6srKwnJydcXFxxcXFGRkaSkpLf398eHh4+Pj58fHxYWFgsLCyzs7M8PDxMTEw0NDS6WiCpAAAKtUlEQVR4nO2da0PiOhCGochqpQLlolQEXV1Z//8vPEVEkuY2byZpU/e8H/bDYkse0uYyM5kZDCPrcbVez2fT0aCp0XQ2X69Xj7EbMIh3683bdZXdKmRN3WZVMd7Ea0Ykwt3DqHSyiSpHD7s4TYlAeJjPcojurHw2P4RvTmjC7SLzojsrW2wDtygo4euMRXfW7DVko8IRbhdB8L4gw/VkIMK7wu/VMysv7sI0LQjhZBkY76TlJETjAhDOeWOLTdk8AcJ56MdTVs5m5BG+FFHxTlrcd0e4j9t/36o6Irxqia9WftUB4aQ9vk9G73HVk/DevWcIrVvP19GPMOTyha5Fa4QP2MYooJ5aIdxMu+KrNcW3yjDhU7sjTFP5Q2zC9075jkLfRozwI94SlK5sHI9w3jXcl6C1KkLYzRyh0ywK4V0KT+hZGX17TCbcdQ3VEHkVRyVcd02kaB2W8KprHo2I0waNsMtljFnTcIRpAhIRCYSr9ndKVJWrEISrznYSBBEQ3YQpA9aIbMKke/AoZy86CJMHdCM6CNMdZC5yPKh2wlSnCVn2ScNK2A9AB6KNMMWlml62BZyFML3FtlmWZbiZMLXtkl3mzZSR8K7rNoMybomNhCnt6CnKUMJ0bDJUmWw3BsJUrGqIDBY4PeFH1631kt6Oqifs20t4kv5V1BJ2b7r3k3bi1xE+dd1Sb+ncNhrCTbfeJY5yjfNNQ9iX9bZOmjW4SvjQdStZUr3EKmH6u3qr3IRei5msKv6Og+qtKvymLGU8bRLe4/ecwo5nojYTn4jcZlBKkxA1zOT7l0h8J1Uw4a2dcALebhQVz4/xxkqITYXl3/iAw+FfFNFGiFlmWujAk8BXRw7zkwmhLqQ5t4IIe1JzM+E+UUAUUXq4RMIV0oWtAqIPqjhjiITIZG80i8QStNQSp32REOnCtgFB46Zw5k9oKmKboQZCBBQUNC/YbARCoAvdfskIQh4xYTi9EKbWhav7Wh/Cf0D2v0snXgiBpXycLpxlkk5fJf4B0omXkfD7FsiKlHX+wSjthCD+gXqW2KJvR8b3LZDDWVEA3YS/EcJlkxBxxEQaZ5yE2KLy7Ko53wIZi+M8pARC6DEtGoTIzxNpJHUTQj7b84TxdYstcm2kJAFuQswMuJUIIfsT77Qcg/AFIpxJhNClnfUh1swz2ue/r8iFsbYVwQlfBULIatcbwplACF3YG8LBhRAaSXtEePNNiFny+0O4+CbEPAT9ISzPhAfsuv4QDg5fhGBoSY8I51+EoIenR4SzL0LQb98jwvxEiAYh9ohwsPskRB33sQi1IzqTcP9JCO0rIxISBBOOPgnR0IQ+EZZHwg16VZ8IB5ua8O1HE45rwuv2CH9NrheL/cQ//RNOWNSEcCSAH+Guer7c4vbqT0uEVU0IB+b4ED4o37J8a4Uwqwnho0044Vj7Ky7xSA6csBwOHuGLYELj9hM2LeOENd8qNuHq2Xyr5/iEhwF+9gcjtAfFg7+WB+F1bEKXxwdD9CBcD/CTFVCjnOMYdDcPwmqABziKbfpY3zS0lmIVCTYuKSD0t3o/MfmuB+F0gEd1i4RqWL/kXCTZ0qUljvrxnkuI7p1kwl/Kp1LYHGnbIj2naqdf8wh9Eo/aCcVcx0S36y/hEtU4zST0kZVQigskGoDEG6p7udQIxYA+skdLTBqsjAupEd7YGmuSOJwqW53UCMc+7REfbeVFTI3Q1lazhOHppflZYoTiZ8B60EaRGKG4WQDWEnMLxc8jbG62fgah7bL/CSMoAqG4TmgulH8GofgeNpd6CRMCR4yuLBSJEYoz/g39llsLRcKEL/RbCkewlWjs1AjFAipkt534bCsbEjZh4D1+IXxI9oiIA42Sz4G9x+fZaRTCpfAhOfJcDOdUjHNMwinT1qZaMYQPqfOFuD1UDchsQp69VCUUjS5/aDcUPW3qAMwkrJg2b5VQfExpnSj5Z1QLMpNwHZxwIKUxJNiiJGOixsvBJLxm+p40hKIFV/d5U5IXUWMjZxIemP5DDYF8zthpb5N+EB0Ck/CR6QPW9ZGckcoxKcp/rFvK8ghLrh9fRyh3on15KgNqnyceYcaNxdC+Z41MBK/m4abhydeur3iEx1gMuCiVk7DZ8BfDqqJ54F1vfuQRHuNpxuhFbkLF67nVeIBulQKA+r7mEY65cW2G2UDNmDGWJ/98oWZyNEQ08Ag33NhE03ynq7G1fV+cTviOCl39RtPbwiIs2fGlxhkdzjtkHA5YhCN2jLB5zQIimp0cLMI9O87bsiqDEC0BkizCHTtW37buBAps2WYsDuFXrD7nvIV1ZU3OQWRtAIfwfN6CcWbGvnfISFGkb/bBnEN4PjPDOPfk2h0VQ6dcQUUcwvO5J8bZNef+r3QMOO5CnwzC77NrjPOHhB1u1sifhvGxCC/nD/3PkBIIaxW/dXhvtB+WQXg5Q+p/DphGeCyZfiNG4A13+yl1scggHF4Ivc9yUwmPKsv3xUklshT2JxTPcnufx0cIPeVPKJ7Hhy7tDeFQJPRN1ZYy4VQiREbTvhC+SoS+qcwSJmzkp4HsUUKKsRaSm3vFAg7UHENInijB3Qclp/KT4AeBVibNPFFIri/RgRa9xoA9bt4sJdcXkq9NdDXA1lZU4muIWJTUfG1Ab0guQrzNkCQXAfCcXa7zypsofisQNeMjMbYDcZPp8iYCE4b4tXEr0kgHaoDzvNrcl0Anyg6HiIiypQfwAwqec/GJo99AzvYFn5WmSk59h1g9hcNXfnmEG1a0zXuMoh+jRtY0IPLHlEcYqBqgGNF+FVdBVSgHoZEFoikXNJDPu5mevwUBawtjPm9kOIUKuIcQMJ5ZcrIjQa+tFA24CHlGbXn1kU0UvX57AEFVKeRLGfUtWkSEtqH2+hZQdM3HsCVBPeioUYLVmWkpMzu2f3HVmcHWYMu4RWY+9WLJyaCRs1YQGrhAcC6x9IhGGSh34NfsqiLOGxN4VU+p2YXXXSurp516G64OkxFuIiHVXfOtnfc8CihP8w+xdl6Pa8sR6x/2sZDsSdraN/9oHVI8XjEJIbVkf349YDiKKAGBNZ379yrCdbn/gdrqcMhitzLnYrTUjMHPC3Unyz7OVhWnPxO/rcydte5PX2ofW+v42Ssb9QPRXqjQUbupD+WPS82Ggk64Sh+xXNkRXPW3kkd0AToJU39Q3fXD3IRJ96KzBymEKSMSACmE6U4aU/soChAmikgr2EusZZjiAo5YkZharTG9ZTjVaUKuR4nWlY8tcup6esXNu5R2/RndeYnUFE3HdmOyyXAJk7HAQWESWF1YfYL8lpXp7aJhCFOYNtCy9XBt34cYAV505fARarx68abLBQ5pncYlbCVA3yDgaDGLsKu3UQlCiEg4vIez2rB161mk15OwXsW1POJYTqJGIhwOr9pjzHV5NuITAmkDmSIf7A9OOLxvY8hZ8Kpk8wiHw8d53Gc1r7iBZVzCWvN4i9U8QChyAMJ6XPUpk+HW0r9Am6AghPX2uAj9sOZFoAjdQIS1tiE3yNNX9xcSFY6w1msYyFk4vGFgwlrbBc9CXi68Fy8GhSasdZjP/F7KfDY/uG+PKgLhUbv9COvLcrSPEKN6VCTCozbjosrcnGVWFWN8Y0tWRMKTHlfrdTWdqjPmcjqt1teHR/ctePoP1NWS00sLhsEAAAAASUVORK5CYII="
+                        alt="" id="socialMedia">
+                    <img src="data:image/png;base64,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"
+                        alt="" id="socialMedia">
+                    <img src="data:image/png;base64,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"
+                        alt="" id="socialMedia">
+                </div>
+
+            </div>
+        </div>
+        <div id="secondsec">
+            <p>ABOUT US</p>
+            <p>What We Do</p>
+            <p>Indiegogo vs. Kickstarter</p>
+            <p>Press</p>
+            <p>About Us</p>
+        </div>
+        <hr id="foot_hr">
+        <div id="thirdsec">
+            <div id="section1">
+                <p><a href="">Terms of Use</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">Privacy Policy</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">Cookie Ploicy</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">Accessibility</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>Do Not Sell My Personal Information</p>
+            </div>
+            <div id="section2">
+                <p>© 2022 Indiegogo, Inc. All Rights Reserved</p>
+                <img src="https://g3.iggcdn.com/assets/site/footer/bbbImage-560ccf49d0814f8e0febe9bedd9c0aba516e5f9db5aafb43917bb3bd4484d5f4.png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./day2/forEntrepreneurs/navbar.js" type="module"></script>
+<script>
+    let count1 = 1;
+    let display1 = () => {
+
+        if (count1 % 2 == 0) {
+            document.getElementById('dropdown1').style.display = "none";
+            document.getElementById('dropdown2').style.display = "none";
+            document.getElementById('dropdown3').style.display = "none";
+
+        }
+        else {
+            document.getElementById('dropdown1').style.display = "block";
+            document.getElementById('dropdown2').style.display = "none";
+            document.getElementById('dropdown3').style.display = "none";
+
+        }
+        count1++
+        console.log(count1, 'how it work');
+    }
+
+    let count2 = 1;
+    let display2 = () => {
+
+        if (count2 % 2 == 0) {
+            document.getElementById('dropdown2').style.display = "none";
+            document.getElementById('dropdown3').style.display = "none";
+            document.getElementById('dropdown1').style.display = "none";
+        }
+        else {
+            document.getElementById('dropdown1').style.display = "none";
+            document.getElementById('dropdown2').style.display = "block";
+            document.getElementById('dropdown3').style.display = "none";
+        }
+        count2++
+        console.log(count2, 'resourses');
+    }
+
+    let count3 = 1;
+    let display3 = () => {
+
+        if (count3 % 2 == 0) {
+            document.getElementById('dropdown3').style.display = "none";
+            document.getElementById('dropdown1').style.display = "none";
+            document.getElementById('dropdown2').style.display = "none";
+        }
+        else {
+            document.getElementById('dropdown1').style.display = "none";
+            document.getElementById('dropdown2').style.display = "none";
+            document.getElementById('dropdown3').style.display = "block";
+        }
+        count3++
+        console.log(count3, 'aboutus');
+    }
+
+
+let count = 0;
+let details = () => {
+    count++
+    if (count % 2 == 1) {
+        document.getElementById('second_div').style.display = "block";
+    }
+    else {
+        document.getElementById('second_div').style.display = "none";
+
+    }
+    console.log(count);
+}
+
+// sliding
+
+let img=document.getElementById("image")
+
+let countt1 = 0;
+function forword(){
+    countt1++;
+    // if(count = 0){
+    //     img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658244913/mloerh9s6w3vjaqfqddv.jpg';
+    // }
+    
+    if(countt1 == 1){
+        img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658420619/w0t7dbcmmuqgwzr6fvdt.jpg';
+     
+    }
+    else  if(countt1 == 2){
+        img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658245273/wapgqwbykrnuzamcfrzu.jpg';
+     
+    }
+    else  if(countt1 == 3){
+        img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658244747/sioknj9etk6ag8zyvlhp.jpg';
+        // count = 0;
+    }
+    else  if(countt1 == 4){
+        countt1 = 0;
+    }
+    console.log(countt1);
+    
+}
+
+
+let img2=document.getElementById("image")
+
+let countt2 = 0;
+function backword(){
+    countt2++;
+    
+    if(countt2 == 1){
+        img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658420619/w0t7dbcmmuqgwzr6fvdt.jpg';
+     
+    }
+    else  if(countt2 == 2){
+        img.src='https://c1.ggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658245273/wapgqwbykrnuzamcfrzu.jpg';
+     
+    }
+    else  if(countt2 == 3){
+        img.src='https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1658245109/zik1g3knpsgwvmoquwyu.jpg';
+        // count = 0;
+    }
+    else  if(countt2 == 4){
+        countt2 = 0;
+    }
+    console.log(countt2);
+    
+}
+
+
+</script>
