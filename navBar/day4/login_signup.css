@@ -1,0 +1,120 @@
+#main {
+    height: 670px;
+    width: 1250px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    background-color: #F5F5F5;
+    margin: auto auto;
+    justify-content: space-between;
+}
+
+#sign_facebook {
+    height: 250px;
+    width: 380px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#signup_div {
+    height: 560px;
+    width: 380px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+#login_div {
+    height: 300px;
+    width: 380px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+#fb_signin {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4067AB;
+    color: white;
+    font-size: 15px;
+    border: 1px;
+}
+
+#facebook_logo {
+    margin-top: 1px;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -40px;
+}
+
+#fb_link {
+    text-decoration: none;
+}
+
+#signup {
+    width: 360px;
+    height: 40px;
+    background-color: #E51075;
+    color: white;
+    border: 1px;
+    margin-top: 20px;
+}
+
+#fname {
+    width: 350px;
+    height: 40px;
+}
+
+#lname {
+    width: 350px;
+    height: 40px;
+}
+
+#mail {
+    width: 350px;
+    height: 40px;
+}
+
+#passwd {
+    width: 350px;
+    height: 40px;
+}
+
+#robo {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#check {
+    margin-top: 32px;
+}
+
+#captcha span {
+    font-size: 10px;
+}
+
+#login_mail {
+    width: 350px;
+    height: 40px;
+}
+
+#login_passwd {
+    width: 350px;
+    height: 40px;
+}
+
+#login_btn {
+    width: 360px;
+    height: 40px;
+    background-color: #E51075;
+    color: white;
+    border: 1px;
+    margin-top: 20px;
+}

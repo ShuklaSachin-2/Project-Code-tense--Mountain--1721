@@ -1,0 +1,134 @@
+* {
+    font-family: benton-sans, Helvetica, "Sans-serif";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: -2px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E51075;
+}
+
+a:visited {
+    color: transparent;
+}
+
+.classHover:hover {
+    color: #E51075;
+}
+
+#camp_link{
+    color: white;
+}
+
+#navBar_enp {
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_left_div {
+    width: 830px;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#nav_right_div {
+    width: 410px;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    height: 50px;
+    width: 320px;
+    /* margin-top: 13px; */
+    margin-left: 10px;
+}
+
+#nav_exp {
+    margin-left: 20px;
+    margin-top: 23px;
+
+}
+
+/* #nav_exp:hover{
+    color: pink;
+} */
+#nav_wwd {
+    margin-left: 20px;
+    margin-top: 23px;
+}
+
+#search {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#nav_forEnp {
+    margin-top: 23px;
+}
+
+#nav_camp {
+    margin-top: 10px;
+    height: 40px;
+    width: 160px;
+    border: 1px;
+    color: white;
+    background-color: #E51075;
+}
+
+#nav_camp:hover {
+    background-color: #eb4894;
+}
+
+#nav_login {
+    margin-top: 23px;
+
+}
+
+#nav_signup {
+    margin-top: 23px;
+
+}
+
+#show {
+    display: none;
+}
+
+#dropdown1 {
+    display: none;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 63px;
+    background-color: white;
+}
+
+#dropdown2 {
+    display: none;
+    position: absolute;
+    margin-left: 455px;
+    margin-top: 63px;
+    background-color: white;
+}
+
+#dropdown3 {
+    display: none;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 63px;
+    background-color: white;
+}
