@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#sachinnav_logo{
+    width: 250px;
+    height: 50px;
+    
+
+   
+}
+
+#checkout_main{
+    display: flex;
+    width: 100%;
+    /* height: 1000px; */
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+    justify-content: space-around;
+}
+#sachinnav{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#check_left{
+     width: 50%;
+    /* height: 1000px; */
+    /* border: 1px solid black; */
+    margin: auto;
+
+}
+.checkout_right{
+     width: 25%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 5px;
+   
+}
+#check_left>div{
+    margin: auto;
+}
+
+#check_left>div h3{
+    margin-top: 40px;
+    /* margin-bottom: 25px; */
+   font-size:  20px;
+   color: #949494;
+   margin-bottom: 20px;
+   margin-left: 28px;
+}
+
+.heading_check{
+    color: #2A2A2A;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 16px 0px 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 28px;
+}
+#check_left :nth-child(4){
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    margin-right: 50px;
+
+    
+}
+.guest_checout_head{
+    margin-left: 24px;
+    margin-bottom: 20px;
+
+}
+.ckeckbox_subscribe{
+    display: flex;
+    margin-left: 24px;
+}
+#checkout_name {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 24px;
+    margin-bottom: 10px;
+
+}
+.labelname {
+    width: 50%;
+    
+}
+.labelname input{
+    width: 60%;
+    padding: 10px;
+}
+#checkout_shipping_address form{
+    box-shadow: #2A2A2A;
+    margin: auto;
+}
+#checkout_shipping_address label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    
+}
+#checkout_shipping_address input{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+#checkout_shipping_address form{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    
+}
+
+#checkout_shipping_address form>div{
+    display: flex;
+    width: 80%;
+
+}
+#checkout_shipping_address form>div input{
+    width: 300px;
+}
+#secure_payment{
+    color: #2A2A2A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    /* padding: 16px 0px 0px; */
+    margin-left: 39px;
+}
+#input_radio{
+    /* box-sizing: border-box; */
+    /* width: 80%; */
+    margin: auto;
+    width: 90%;
+
+    
+    
+    border-color: #2A2A2A;
+}
+
+#input_radio>div{
+    display: flex;
+    box-sizing: border-box;
+    border-color: #2A2A2A;
+    border: 1px solid #2A2A2A;
+    margin-bottom: 20px;
+    width: 83%;
+    height: 40px;
+    align-items: center;
+    
+}
+#input_radio>div>input{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/* #input_radio>div input{
+    margin-left: 1px;
+    
+} */
+
+
+/* right box */
+
+.checkout_right >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+color: #2A2A2A;
+font-weight: 600;
+
+}
+.checkout_right >h3+p{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#checkout_right >div {
+    border: 1px solid #a8a1a1;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 4px;
+}
+
+#total_check h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#total_check>div+div>p{
+    font-size: 20px;
+    font-family: Helvetica,"Sans-serif";
+}
+.payment_process{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(24,117,117);
+    border: 1px solid rgb(24,117,117);
+    padding: 10px;
+}
+
+.crowd_fund_box{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crowd_fund_box>h3+p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* popup part**** */
+#popup{
+    position: fixed;
+    /* top: 40%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    padding: 50px;
+    /* box-shadow: 0 5px 30px rgba(0,0,0,.30); */
+    /* background: rgb(243, 251, 251); */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 10px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    display: flex;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+#nodiv{
+    /* border: 1px solid rgb(208, 205, 205); */
+    /* padding: 15px; */
+    margin: auto;
+    width: 300px;
+    margin-left: 250px;
+    background-color: rgba(187, 160, 160, 0.336);
+}
+#nodiv:hover
+{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.button_submit_sac {
+        border: 1px solid #ea4610;
+        background-color: #e71313;
+        color: white;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 90px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .button_submit_sac:hover {
+        background-color: #900808;
+        cursor: pointer;
+      }
+
+      .fb5:hover {
+        background-color: #000000;
+        border: 1px solid #000000;
+      }
