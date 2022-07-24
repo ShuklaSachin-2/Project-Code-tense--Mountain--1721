@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
     padding: 0px;
@@ -224,3 +224,78 @@ font-weight: 600;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* popup part**** */
+#popup{
+    position: fixed;
+    /* top: 40%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    padding: 50px;
+    /* box-shadow: 0 5px 30px rgba(0,0,0,.30); */
+    /* background: rgb(243, 251, 251); */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 10px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    display: flex;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+#nodiv{
+    /* border: 1px solid rgb(208, 205, 205); */
+    /* padding: 15px; */
+    margin: auto;
+    width: 300px;
+    margin-left: 250px;
+    background-color: rgba(187, 160, 160, 0.336);
+}
+#nodiv:hover
+{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.button_submit_sac {
+        border: 1px solid #ea4610;
+        background-color: #e71313;
+        color: white;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 90px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .button_submit_sac:hover {
+        background-color: #900808;
+        cursor: pointer;
+      }
+
+      .fb5:hover {
+        background-color: #000000;
+        border: 1px solid #000000;
+      }
