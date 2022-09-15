@@ -16,7 +16,7 @@ Along with the the team of five Developers. We have developed this website clone
 
 
 
-=========================================================================
+
 *************************************************************************
 ![project-2](https://user-images.githubusercontent.com/103953608/190312203-b692b866-faaa-4e7c-b61e-411eb9930f68.jpg)
 
